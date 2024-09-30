@@ -1,0 +1,124 @@
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  width: 100%;
+  background-color: #ffffff; 
+  border-bottom: 1px solid #e0e0e0; 
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 50px; 
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff; 
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.navigation {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #f0f0f0;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-button, .signup-button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login-button {
+  background-color: #007bff; 
+  color: white;
+}
+
+.signup-button {
+  background-color: #28a745; 
+  color: white;
+}
+
+.content {
+  margin-top: 70px; 
+  padding: 20px;
+}
+
+.wallpaper {
+  background-image: url('wallpaper.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.wallpaper h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.wallpaper p {
+  font-size: 1.25rem;
+}

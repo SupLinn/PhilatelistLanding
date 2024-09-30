@@ -1,0 +1,65 @@
+.top-categories {
+    padding: 20px;
+  }
+  
+  .title-wrapper {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .title {
+    font-size: 32px; 
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; 
+    color: #2c3e50; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    background-image: linear-gradient(45deg, #f39c12, #e74c3c); 
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .categories-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .category-item {
+    width: 175px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .category-image-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hover-mask {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 10px;
+    color: white;
+    display: none;
+  }
+  
+  .category-item:hover .hover-mask {
+    display: block;
+  }
+  
+  .category-title {
+    font-size: 18px; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600; 
+  }
+  
+  .more-products a {
+    color: white;
+    text-decoration: underline;
+  }
+  

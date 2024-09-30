@@ -1,0 +1,55 @@
+.newsletter-container {
+    background-color: #ffeb3b; 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.newsletter-title {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: #c2185b; 
+    margin-bottom: 20px; 
+}
+
+.newsletter-description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+.newsletter-form {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center; 
+}
+
+.form-input {
+    width: 300px;
+    padding: 10px; 
+    margin-right: 10px; 
+    border: 1px solid #c2185b;
+    border-radius: 5px;
+    transition: border-color 0.3s; 
+}
+
+.form-input:focus {
+    border-color: #a500b5; 
+    outline: none; 
+}
+
+.form-button {
+    background-color: #c2185b; 
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover {
+    background-color: #a500b5; 
+}

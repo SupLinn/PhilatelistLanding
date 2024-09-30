@@ -1,0 +1,28 @@
+
+.wallpaper {
+    background-image: url('wallpaper.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .wallpaper h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .wallpaper p {
+    font-size: 1.25rem;
+  }
+  

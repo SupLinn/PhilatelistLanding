@@ -1,0 +1,119 @@
+
+.featured-product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffeb3b; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  .featured-product-item {
+    background-color: #ff6347; 
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .featured-product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .featured-product-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  
+  .featured-product-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px 0;
+    color: white; 
+  }
+  
+  
+  .featured-product-description {
+    font-size: 1rem;
+    color: white; 
+    margin-bottom: 15px;
+  }
+  
+ 
+  .featured-product-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 15px;
+  }
+  
+  
+  .featured-product-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .featured-product-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .exclusive-collection-heading,
+  .featured-products-heading {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .exclusive-collection-heading::after,
+  .featured-products-heading::after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background-color: #ff6347;
+    display: block;
+    margin: 10px auto 0 auto;
+    border-radius: 4px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .featured-product-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  
+    .exclusive-collection-heading,
+    .featured-products-heading {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .featured-product-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .exclusive-collection-heading,
+    .featured-products-heading {
+      font-size: 1.8rem;
+    }
+  }
+  
